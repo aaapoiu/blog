@@ -1,7 +1,6 @@
 ---
 title: "Two Sum"
 date: 2021-04-29T18:58:48+09:00
-draft: true
 ---
 
 ## problem
