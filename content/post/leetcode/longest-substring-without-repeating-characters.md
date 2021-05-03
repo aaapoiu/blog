@@ -52,12 +52,12 @@ class Solution {
                     exists.remove(s.substring(i, i+1));
                     i++;
                 }
-
+                
             } else {
-                exists.add(right);
-                maxLength = Math.max(maxLength, j - i);
+                maxLength = Math.max(maxLength, j + 1 - i);
             }
             
+            exists.add(right);
             j++;
         }
         
