@@ -1,0 +1,14 @@
+baseURL: "https://aaapoiu.github.io"
+languageCode: "en-us"
+title: "aaapoiu"
+theme: "hugo-PaperMod"
+params:
+  homeInfoParams:
+    Title: "title-aaapoiu"
+    Content: "something new"
+    buttons:
+      - name: Posts
+        url: "/post"
+  ShowToc: true
+  TocOpen: true
+  ShowBreadCrumbs: true
