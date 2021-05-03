@@ -23,7 +23,24 @@ test case
 
 ## o(n^2) approach
 ```java
-
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int size = nums.length;
+        for (int i = 0; i < size; i++) {
+            int a = nums[i];
+            for (int j = i+1; j < size; j++) {
+                int b = nums[j];
+                if (target == (a+b)) {
+                    return new int[]{i, j};
+                } else {
+                    continue;
+                }
+            }
+        }
+        
+        return new int[]{-1, -1};
+    }
+}
 ```
 
 ## first approach

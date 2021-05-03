@@ -1,4 +1,17 @@
-baseURL="https://aaapoiu.github.io"
-languageCode="en-us"
-title="aaapoiu"
-theme="hugo-PaperMod"
+baseURL = "https://aaapoiu.github.io"
+languageCode = "en-us"
+title = "aaapoiu"
+theme = "hugo-PaperMod"
+
+[params]
+ShowToc = true
+TocOpen = true
+ShowBreadCrumbs = true
+
+  [params.homeInfoParams]
+  Title = "t-aaapoiu-t"
+  Content = "something new"
+
+    [[params.homeInfoParams.buttons]]
+    name = "Posts"
+    url = "/post"
